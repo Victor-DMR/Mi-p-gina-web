@@ -1,0 +1,221 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(26, 26, 26);
+}
+
+main{
+    color: rgb(255, 255, 255);
+}
+
+#perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+}
+
+.fotoperfil{
+    text-align: center;
+}
+
+#menu{
+    font-size: 35px;
+    position: fixed;
+    left: 3%;
+    top: 2%;
+    color: rgb(156, 156, 156);
+}
+
+#menu:hover{
+    color: rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+.btn-close{
+    position: relative;
+    left: 90%;
+}
+
+#saludo{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 90%;
+}
+
+#contenborder{
+    border-left: 5px solid #00ffc3;
+    height: 100vh;
+    color: rgb(230, 229, 229);
+    background-color: black;
+    float: left;
+}
+
+#contetotal{
+    padding-top: 15%;
+    float: left;
+}
+
+#infoprimary{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+#svgprogramcion{
+    width: 100%;
+}
+
+.svg{
+    width: 65%;
+    margin: auto;
+}
+
+ul{
+    width: 100%;
+    text-align: center;
+}
+
+ul > li{
+    display: block;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    font-size: large;
+}
+
+ul > li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 10%;
+}
+
+.link:hover{
+    font-size: 110%;
+    border-bottom: 2px solid  #00ffc3;
+}
+
+.txt{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    padding-bottom: 5%;
+}
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+#contact > ul li{
+    display: inline-block;
+    margin-left: 6%;
+    font-size: 200%;
+}
+
+#contact > ul{
+    margin-left: -10%;
+}
+
+#contact > ul li i:hover{
+    cursor: pointer;
+    font-size: 120%;
+}
+
+embed{
+    width: 100%;
+    height: 100%;
+}
+
+.txt-cv{
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+}
+
+.btn-cv{
+    background-color: transparent;
+    border: 1px solid #00ffc3;
+    color: #00ffc3;
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: large;
+    border-radius: 20px;
+}
+
+.btn-cv:hover{
+    color: black;
+    background-color: #00ffc3;
+}
+
+@media only screen and (min-width: 800px){
+    #menu{
+        visibility: hidden;
+    }
+    
+    .btn-close{
+        visibility: hidden;
+    }
+
+    #contenborder{
+        width: 22%;
+        height: 100vh;
+        position: fixed;
+        box-shadow: 0px 0px 30px black;
+    }
+
+    #contetotal{
+        padding-top: 3%;
+        float: left;
+        width: 100%;
+        padding-left: 20%;
+    }
+
+    #infoprimary{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #svgaboutme{
+        width: 30%;
+    }
+
+    #svgcontactme{
+        width: 50%;
+    }
+
+    #svgabilities{
+        width: 40%;
+    }
+    
+    .txt{
+        width: 70%;
+    }
+
+    #contact > ul li{
+        font-size: 250%;
+    }
+
+    embed{
+        width: 100%;
+        height: 95vh;
+    }
+    
+    .txt-cv{
+        position: relative;
+        width: 90%;
+        margin: auto;
+        padding-left: 2%;
+    }
+    
+    .conte-cv{
+        margin-top: -2%;
+    }
+    
+}
+
